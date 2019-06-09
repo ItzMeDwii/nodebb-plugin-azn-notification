@@ -1,0 +1,31 @@
+{
+  "name": "nodebb-plugin-azn-notification",
+  "title": "Discord Notifications for AzN",
+  "version": "0.2.0",
+  "description": "Send notifications of new posts and topics via Discord webhook.",
+  "keywords": [
+    "discord",
+    "nodebb",
+    "plugin",
+    "webhook"
+  ],
+  "author": {
+    "name": "ItzMeDwii",
+    "url": "https://github.com/ItzMeDwii/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ItzMeDwii/nodebb-plugin-azn-notification"
+  },
+  "bugs": {
+    "url": "https://github.com/ItzMeDwii/nodebb-plugin-azn-notification/issues"
+  },
+  "license": "MIT",
+  "main": "library.js",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  },
+  "nbbpm": {
+    "compatibility": "^1.5.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+	"id": "nodebb-plugin-azn-notification",
+	"name": "Discord Notifications for AzN",
+	"description": "Send notifications of new posts and topics via Discord webhook.",
+	"url": "https://github.com/ItzMeDwii/nodebb-plugin-azn-notification",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "static:app.load", "method": "init" },
+		{ "hook": "filter:admin.header.build", "method": "adminMenu" },
+		{ "hook": "action:post.save", "method": "postSave"}
+	],
+	"templates": "./public/templates",
+	"languages": "./languages",
+	"settingsRoute": "/admin/plugins/azn-dnotif"
+}

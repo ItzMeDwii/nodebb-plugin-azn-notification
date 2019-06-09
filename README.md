@@ -1,1 +1,1 @@
-# nodebb-plugin-azn-notification
+# Discord Notifications for AzN
