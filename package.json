@@ -23,7 +23,7 @@
   "license": "MIT",
   "main": "library.js",
   "dependencies": {
-    "discord.js": "^11.5.1"
+    "discord.js": "^12.1.1"
   },
   "nbbpm": {
     "compatibility": "^1.5.0"
